@@ -1,5 +1,5 @@
 import { Link, useSearchParams } from "react-router-dom";
-import { useFetch } from "../components/hooks/useFetch";
+import { useFetch } from "../hooks/useFetch";
 
 const Blog = () => {
   let [searchParams, setSearchParams] = useSearchParams();

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useFetch } from "../components/hooks/useFetch";
+import { useFetch } from "../hooks/useFetch";
 
 const Post = () => {
   const params = useParams();
